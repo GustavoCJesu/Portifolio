@@ -438,6 +438,10 @@ section {
   animation-delay: .25s;
 }
 
+.timeline-item:nth-child(3) {
+  animation-delay: .4s;
+}
+
 .timeline-dot {
   position: absolute;
   left: -2.3rem;
@@ -555,6 +559,35 @@ section {
   letter-spacing: .1em;
   padding: .3rem .7rem;
   border: 1px solid;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card > * {
+  position: relative;
+}
+
+.project-links {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: auto;
+  padding-top: 1.2rem;
+  font-family: var(--mono);
+  font-size: .78rem;
+}
+
+.project-links a {
+  color: var(--accent2);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color .2s;
+}
+
+.project-links a:hover {
+  border-bottom-color: var(--accent2);
 }
 
 .status-dev {
@@ -709,6 +742,13 @@ footer {
   font-family: var(--mono);
   font-size: .72rem;
   color: var(--muted);
+}
+
+.footer-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+  vertical-align: middle;
+  margin: 0 .15rem;
 }
 
 /* ── ANIMATIONS ── */

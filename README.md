@@ -6,12 +6,12 @@ Site de portfólio pessoal, desenvolvido do zero com HTML, CSS e JavaScript puro
 
 ## ✨ Funcionalidades
 
-- **Seção Sobre**: apresentação pessoal e cards de estatísticas (tempo de estudo, projetos, tecnologias).
-- **Competências técnicas** organizadas por categoria (Frontend, Backend, Banco de Dados, Ferramentas).
-- **Trajetória profissional e acadêmica** em formato de linha do tempo.
-- **Vitrine de projetos**, com status (concluído / em desenvolvimento) e tecnologias usadas em cada um.
+- **Seção Sobre**: apresentação pessoal e cards de estatísticas (tempo de estudo, experiências, sites entregues, projetos).
+- **Competências técnicas** organizadas por categoria (Frontend, Backend, Banco de Dados, Ferramentas, Outros).
+- **Trajetória profissional** em formato de linha do tempo (Sempher Solutions, freelancer e DUKO).
+- **Vitrine de projetos**, com status (no ar / concluído / em desenvolvimento), tecnologias e links para site e repositório.
 - **Formação acadêmica** em cards.
-- **Seção de contato** com links diretos para e-mail e LinkedIn.
+- **Seção de contato** com links diretos para e-mail, LinkedIn, GitHub e telefone.
 - **Animações de entrada** ao rolar a página, usando `IntersectionObserver` (JavaScript puro, sem dependências).
 - Layout **100% responsivo**.
 
